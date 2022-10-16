@@ -1,0 +1,65 @@
+@import "~antd/dist/antd.css";
+/* @import url('https://fonts.googleapis.com/css2?family=Atma:wght@700&family=Gaegu:wght@300&family=Rubik+Moonrocks&display=swap'); */
+
+@font-face {
+  font-family: "SukhumvitSet-Medium";
+  src: url("/fonts/SukhumvitSet-Medium.ttf");
+}
+
+@font-face {
+  font-family: "SukhumvitSet-Text";
+  src: url("/fonts/SukhumvitSet-Text.ttf");
+}
+
+@font-face {
+  font-family: "SukhumvitSet-Light";
+  src: url("/fonts/SukhumvitSet-Light.ttf");
+}
+
+@font-face {
+  font-family: "SukhumvitSet-Bold";
+  src: url("/fonts/SukhumvitSet-Bold.ttf");
+}
+
+body {
+  font-family: "SukhumvitSet-Light" !important;
+}
+
+.header-language {
+  background-color: #BFBFBF;
+  height: 50px;
+  padding: 0 3rem;
+}
+
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.ant-layout-content {
+  flex: auto;
+  min-height: 0;
+  padding: 0 !important;
+}
+
+.ant-modal-mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45) !important;
+  /* background-color: black !important; */
+}
+
+
+
